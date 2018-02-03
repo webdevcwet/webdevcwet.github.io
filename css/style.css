@@ -28,13 +28,15 @@ header {
 .header-button {
 width: 200px;
 height: 50px;
+display: inline-block;
+text-decoration: none;
 box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 border-radius: 50px;
 margin-top: 33px;
 background-color: #ffffff;
 font-size: 18px;
 font-weight: 700;
-padding: 15px 50px 20px 50px; 
+padding: 15px 50px 20px 55px; 
 border: none;
 }
 header small {
@@ -126,6 +128,7 @@ footer {
 }
 .footer-button {
 	display: inline-block;
+	text-decoration: none;
 	border: 1px solid #ffffff;
 	background-color: transparent;
 	color: #fff;
