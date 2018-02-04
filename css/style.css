@@ -198,4 +198,9 @@ footer {
 	.header-button-block {
 		margin-left: 150px
 	}
+@media (max-width: 425px) {
+	.header-button-block {
+		margin-left: 70px;
+	}
+	}
 }
